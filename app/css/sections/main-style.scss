@@ -1,0 +1,285 @@
+.services{
+  & .container{
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 35px;
+  }
+  &-list{
+    margin-top:30px;
+    text-align: justify;
+    &:after{
+      display: inline-block;
+      content: "";
+      width: 100%;
+      height: 0;
+    }
+    &-item{
+      text-align: center;
+      display: inline-block;
+      vertical-align: bottom;
+      max-width: 120px;
+      &__img{
+        max-width:60px;
+        margin: 0 auto;
+      }
+      &:hover  .cls-1{
+        fill: #faa61a;
+      }
+      &__text{
+        font-size:14px;
+        color: #333;
+        margin-top:5px;
+      }
+    }
+  }
+  &-but{
+    text-align: center;
+    margin-top:10px;
+    &__link{
+      font-size: 12px;
+      color: #fca03a;
+      text-decoration: underline;
+      font-family:'MuseoSans-500';
+    }
+  }
+}
+.services-all{
+  padding-bottom: 45px;
+  &-item{
+    margin-top:50px;
+    width: 32%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 70px;
+    position: relative;
+    &__img{
+      max-width:60px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+      position: absolute;
+      top:0;
+      left: 0;
+    }
+    &__title{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 27px;
+      color: #282828;
+      font-family:'MuseoSans-700';
+      max-width:265px;
+      margin-bottom:15px;
+    }
+    &-list{
+      &-item{
+        margin-bottom:15px;
+        &__link{
+          font-size: 14px;
+          font-family:'MuseoSans-300';
+          color: #282828;
+        }
+      }
+    }
+    &-but{
+      font-size:14px;
+      color: #bfbfbf;
+    }
+  }
+  .services-but{
+    margin-top:50px;
+  }
+}
+.help{
+  background: url(../images/fon2.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0 85px;
+  &__title{
+    font-size:48px;
+    font-family:'MuseoSans-700';
+    color: #fff;
+    margin-bottom:45px;
+  }
+  &__title1{
+    font-size:16px;
+    color: #fff;
+    margin-bottom: 65px;
+  }
+  &-but{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    font-family:'MuseoSans-500';
+    background: #3d94d2;
+    padding:15px 45px;
+    border-radius: 5px;
+    &:hover{
+      background: #2a6fa0;
+    }
+  }
+}
+.how-use{
+  padding:60px 0;
+  &__title{
+    font-size:30px;
+    color: #333;
+    font-family:'MuseoSans-700';
+    margin-bottom: 65px;
+  }
+  &-item{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 465px;
+    position: relative;
+    &:last-child{
+      max-width:230px;
+    }
+    &__img{
+      max-height:50px;
+      max-width: 50px;
+      margin-bottom: 25px;
+    }
+    &__text{
+      font-size: 20px;
+      color: #333;
+
+    }
+    &__arrow{
+      display: inline-block;
+      position: absolute;
+      bottom: 5px;
+      right: 50px;
+      background: url(../images/arrow-how-use.png) no-repeat;
+      width: 110px;
+      height: 10px;
+    }
+  }
+  &-but{
+    text-align: center;
+    margin-top: 70px;
+    &-link{
+      background:#faa61a;
+      color:#fff;
+      font-size: 14px;
+      font-family:'MuseoSans-500';
+      padding: 15px 25px;
+      border-radius: 5px;
+      display: inline-block;
+      &:hover{
+        background: #ff8a00;
+      }
+      &--blue{
+        background: #3d94d2;
+        &:hover{
+          background: #2a6fa0;
+        }
+      }
+      &__img{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      &__text{
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+.footer{
+  background: #3b3b3b;
+  padding-top:60px;
+  &-logo{
+    width: 100%;
+    max-width:195px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &-top{
+    &-left{
+      width:28%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &-right{
+      width:71%;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: justify;
+      &:after{
+        display: inline-block;
+        content: "";
+        width: 100%;
+        height: 0;
+      }
+      &__link{
+        color: #3d94d2;
+        border: 2px solid #3d94d2;
+        border-radius: 5px;
+        padding: 15px 25px;
+        font-size: 14px;
+        display: inline-block;
+        &:hover{
+          background: #3d94d2;
+          color: #333;
+        }
+      }
+      &-but{
+        color:#fff;
+        font-size:14px;
+        display: inline-block;
+        & i{
+          opacity: .5;
+        }
+      }
+    }
+  }
+  &-bot{
+    padding:30px 0;
+    &-left{
+      width: 50%;
+      font-size:12px;
+      color: #fff;
+      float: left;
+    }
+    &-right{
+      float: left;
+      width: 50%;
+      text-align: right;
+      &-but{
+        margin-top: 30px;
+        font-size: 12px;
+        color: #fff;
+        opacity: .6;
+        &__link{
+          color: #fff;
+          opacity: .6;
+          text-decoration: underline;
+        }
+        &--left{
+          margin:12px 10px 0 0;
+
+        }
+      }
+      &-sosial{
+        display: inline-block;
+        vertical-align: middle;
+        max-width:27px;
+        width: 100%;
+        height:27px;
+        margin-right:10px;
+      }
+    }
+  }
+}
+*:focus{
+  outline: none;
+}
+.container-mob{
+  display: none;
+}
+
+
+
+
+
+

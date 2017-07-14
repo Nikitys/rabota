@@ -1,0 +1,13 @@
+//layout
+@import "layout/adj";
+@import "layout/normalize.css";
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+//plugins
+@import "layout/owl.carousel.min.css";
+@import "layout/owl.theme.default.css";
+//fonts
+@import "../fonts/fonts";
+//sections
+@import "sections/header";
+@import "sections/main-style";
+@import "sections/adaptive";

@@ -1,0 +1,201 @@
+.pre-header{
+  background: #3b3b3b;
+  padding: 10px 0;
+  &-left{
+    display: block;
+    width: 50%;
+    float: left;
+    &-menu-but{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &-lang{
+      display: inline-block;
+      &-item{
+        display: inline-block;
+        vertical-align: middle;
+        &:last-child a{
+          border-right:none;
+        }
+        &__link{
+          color:#fff;
+          font-family:'MuseoSans-700';
+          padding:0 10px;
+          border-right: 2px solid #fff;
+          opacity: .7;
+          &:hover{
+            opacity: 1;
+          }
+          &--active{
+            color: #faa61a;
+            border-right: 2px solid #faa61a;
+            opacity: 1;
+          }
+
+        }
+      }
+    }
+
+  }
+  &-right{
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: right;
+    &-but{
+      color: #fff;
+      opacity: .7;
+      font-family:'MuseoSans-500';
+      &:hover{
+        opacity: 1;
+      }
+      &--phone{
+        display: none;
+      }
+    }
+
+
+  }
+}
+.header{
+  padding:15px 0;
+  & .container-desctop{
+    text-align: justify;
+    max-height: 40px;
+    &:after{
+      display: inline-block;
+      vertical-align: middle;
+      content: "";
+      width: 100%;
+      height: 0;
+    }
+  }
+  &-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width:195px;
+  }
+  &-buttons{
+    display: inline-block;
+    vertical-align: middle;
+    &-but{
+      font-family:'MuseoSans-300';
+      font-size:14px;
+      display: inline-block;
+      margin: 0 40px;
+      &__img{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      &--isp{
+        color: #3d94d1;
+      }
+      &--zak{
+        color: #faa61a;
+      }
+    }
+  }
+  &-tel{
+    display: inline-block;
+    vertical-align: middle;
+    &__link{
+      color: #282828;
+      font-size:18px;
+      font-family:'MuseoSans-500';
+    }
+  }
+}
+.post-header{
+  background: url(../images/fon1.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 135px 0 35px;
+
+  &__title{
+    color: #fff;
+    font-family:'MuseoSans-700';
+    font-size: 48px;
+    letter-spacing: 4px;
+  }
+  &__title1{
+    font-family:'MuseoSans-300';
+    font-size:16px;
+    color:#fff;
+    margin-bottom: 65px;
+  }
+  &-main-but{
+    color:#fff;
+    font-size:14px;
+    font-family:'MuseoSans-500';
+    background: #faa61a;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+      background: #ff8a00;
+    }
+    &__img{
+      display: inline-block;
+      vertical-align: middle;
+      margin-right:5px;
+    }
+    &__text{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  &-buttons{
+    margin-top:90px;
+    &-but{
+      display: inline-block;
+      vertical-align: middle;
+      color: #fff;
+      font-size:14px;
+      font-family:'MuseoSans-300';
+      margin: 0 20px;
+      &__img{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      &__text{
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
